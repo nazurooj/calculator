@@ -19,10 +19,10 @@
             <input id="result" style="font-size: 25px; font-weight:bold;" type="text" class="screen">
         </div>
         <div>
-            <button class="btn col-md-2" onclick="getNumber('%')">%</button>
-            <button class="btn col-md-2" onclick="getNumber('&#8730')">&#8730</button>
-            <button class="btn col-md-2" onclick="getNumber('')">x<sup>2</sup></button>
-            <button class="btn color col-md-3" onclick="getNumber('1/x')">1/x</button>
+            <button class="btn col-md-2" value="%" onclick="percent('%')">%</button>
+            <button class="btn col-md-2" onclick="sqrt(); getNumber('&#8730')">&#8730</button>
+            <button class="btn col-md-2" onclick="pow()">x<sup>2</sup></button>
+            <button class="btn color col-md-3" onclick="div()">1/x</button>
 
         </div>
         <div>
@@ -57,7 +57,7 @@
             <button class="btn color col-md-3" onclick="getNumber('+')">&plus;</button>
         </div>
         <div class="mb-4">
-            <button class="btn col-md-2" onclick="getNumber('&plusmn;')">&plusmn;</button>
+            <button class="btn col-md-2" onclick="abs(); getNumber('-')">&plusmn;</button>
             <button class="btn col-md-2" onclick="getNumber('0')">0</button>
             <button class="btn col-md-2"  onclick="getNumber('.')">&period;</button>
             <button class="btn color col-md-3" onclick="getResult()">&equals;</button>

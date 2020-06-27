@@ -8,11 +8,11 @@ background-color: #242222;
 border-radius:15px ;
 }
 .screen{
-    width: 100%;
-    height: 70px;
+    width: 94%;
+    height: 95px;
     border: groove darkred;
     background-color: rgba(228, 235, 236, 0.726);
-    margin: 20px 0px ;
+    margin: 35px 0px ;
 }
 .btn{
     text-align:center;
@@ -26,4 +26,8 @@ border-radius:15px ;
 }
 .color{
     background-image: linear-gradient(to right, rgba(131, 108, 108, 0.678), rgb(236, 233, 22));
+}
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e10a24d0-0dfa-41d0-9868-fd0ccd245a99/d47t7dl-8af32637-2e3f-4504-847d-cdf3a11e5d72.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTEwYTI0ZDAtMGRmYS00MWQwLTk4NjgtZmQwY2NkMjQ1YTk5XC9kNDd0N2RsLThhZjMyNjM3LTJlM2YtNDUwNC04NDdkLWNkZjNhMTFlNWQ3Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.u1QMifG2AlMO2jLnapIuoQt9tpl7CjMqoA3BVf89UAA);
+    background-repeat: no-repeat ;
 }
